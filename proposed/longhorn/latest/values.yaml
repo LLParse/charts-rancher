@@ -5,10 +5,10 @@ image:
   longhorn:
     engine: rancher/longhorn-engine
     engineTag: v0.3.0
-    manager: rancher/longhorn-manager
-    managerTag: v0.3.1
-    ui: rancher/longhorn-ui
-    uiTag: v0.3.1
+    manager: llparse/longhorn-manager
+    managerTag: ecec562
+    ui: llparse/longhorn-ui
+    uiTag: ce1c75f
   pullPolicy: IfNotPresent
 
 service:
