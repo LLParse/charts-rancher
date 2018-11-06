@@ -6,7 +6,7 @@ image:
     engine: rancher/longhorn-engine
     engineTag: v0.3.0
     manager: llparse/longhorn-manager
-    managerTag: ecec562
+    managerTag: 01d02f1
     ui: llparse/longhorn-ui
     uiTag: ce1c75f
   pullPolicy: IfNotPresent
