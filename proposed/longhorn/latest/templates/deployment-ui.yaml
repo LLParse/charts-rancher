@@ -37,7 +37,7 @@ metadata:
   namespace: {{ .Release.Namespace }}
 spec:
   {{- if eq .Values.service.ui.type "Rancher-Proxy" }}
-  type: ClusterIP
+  type: NodePort
   {{- else }}
   type: {{ .Values.service.ui.type }}
   {{- end }}
